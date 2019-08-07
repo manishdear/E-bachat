@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#203b87</color>
+    <color name="colorPrimaryDark">#00185b</color>
+    <color name="colorAccent">#af8091</color>
+    <color name="Textbackground">#a02e84</color>
+    <color name="background">#e281ca</color>
+    <color name="text">#f4f4f4</color>
+    <color name="pageBackground">#ffffff</color>
+    <color name="textColor">#f111</color>
+    <color name="cardbackground">#f1f1f1</color>
+    <color name="textcolor">#f111</color>
+    <color name="heading">#3B6B9E</color>
+    <color name="colorText">#111</color>
+</resources>

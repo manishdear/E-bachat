@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/gstr1"
+            android:icon="@drawable/round_file"
+            android:title="File GSTR1" />
+        <item
+            android:id="@+id/gstr3"
+            android:icon="@drawable/round_invoice"
+            android:title="File GSTR3" />
+        <item
+            android:id="@+id/gstr4"
+            android:icon="@drawable/round_bill"
+            android:title="File GSTR4" />
+        <item
+            android:id="@+id/itc"
+            android:icon="@drawable/round_file"
+            android:title="Input Credit Form" />
+
+        <item
+            android:id="@+id/otp"
+            android:icon="@drawable/round_file"
+            android:title="verify otp" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/round_help"
+                android:title="Help" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

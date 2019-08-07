@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="1dp"
+        android:paddingBottom="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:background="@color/cardbackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/heading"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Turnover Details"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gross Turnover"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/grossTurnover"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Not Taxable Turnover"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/taxableTurnover"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:background="@color/cardbackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/heading"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Outward Supplies"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="IGST"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/outwordIgst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CGST"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/outwordCgst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SGST"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/outwordSgst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:background="@color/cardbackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/heading"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Inward Supplies"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="IGST"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/inwardIgst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CGST"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/inwardCgst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SGST"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/inwardSgst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:background="@color/cardbackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/heading"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Total Tax Liability"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="IGST"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/liabilityIgst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CGST"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/liabilityCgst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SGST"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/liabilitySgst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:background="@color/cardbackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/heading"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="TDS Credit"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="IGST"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/tdsIgst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CGST"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/tdsCgst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SGST"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/tdsSgst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:background="@color/cardbackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/heading"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="ITC Credit"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="IGST"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/itcIgst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CGST"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/itcCgst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SGST"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/itcSgst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:background="@color/cardbackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/heading"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Tax Paid"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="IGST"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/taxPaidIgst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CGST"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/taxPaidCgst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SGST"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/taxPaidSgst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:background="@color/cardbackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/heading"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Refund Claim"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="IGST"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/refundIgst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CGST"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/refundCgst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SGST"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/refundSgst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/buttonshape"
+            android:paddingBottom="4dp"
+            android:shadowColor="#2A20BA"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="30"
+            android:text="Submit"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+
+
+</ScrollView>

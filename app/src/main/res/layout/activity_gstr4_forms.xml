@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="1dp"
+        android:paddingBottom="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:background="@color/cardbackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/heading"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="10, 11 - Tax, Interest, Late fee payable and paid"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total Liability"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/totalLiability"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Paid through Cash"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/paidthroughcash"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:background="@color/cardbackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/heading"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="13 - Debit entries in cash ledger for tax / interest payment"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Integrated Tax"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/integratedtax"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Central Tax"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/centraltax"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="State/UT Tax"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/statetax"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CESS"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/cess"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:background="@color/cardbackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/heading"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="12 - Refund claimed from Electronic cash ledger"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total Tax claim"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/totaltaxclaim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Interest claim"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/intrestclaim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Late fee claim"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/latefeeclaim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/buttonshape"
+            android:paddingBottom="4dp"
+            android:shadowColor="#2A20BA"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="30"
+            android:text="Submit"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+
+
+</ScrollView>

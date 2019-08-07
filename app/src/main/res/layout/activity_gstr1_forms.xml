@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="1dp"
+        android:paddingBottom="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:background="@color/cardbackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/heading"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="4A,4B,4C,6B,6C–B2B Invoices"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:text="Total Invoice Value"
+                    android:textColor="@color/textcolor"
+                    android:textSize="22dp" />
+
+                <EditText
+                    android:id="@+id/et4invoice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="#fff"
+                    android:inputType="textPersonName"
+                    android:padding="4dp"
+                    android:textAllCaps="true" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:text="Total Taxable Value"
+                    android:textColor="@color/textcolor"
+                    android:textSize="22dp" />
+
+                <EditText
+                    android:id="@+id/et4taxable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="#fff"
+                    android:inputType="textPersonName"
+                    android:padding="4dp"
+                    android:textAllCaps="true" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:text="Total Tax Liability"
+                    android:textColor="@color/textcolor"
+                    android:textSize="22dp" />
+
+                <EditText
+                    android:id="@+id/et4liability"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="#fff"
+                    android:inputType="textPersonName"
+                    android:padding="4dp"
+                    android:textAllCaps="true" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:background="@color/cardbackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/heading"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="5A,5B–B2C (Large) Invoices"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total Invoice Value"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/et5invoice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="#fff"
+                    android:inputType="textPersonName"
+                    android:padding="4dp"
+                    android:textAllCaps="true" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:text="Total Taxable value"
+                    android:textColor="@color/textcolor"
+                    android:textSize="22dp" />
+
+                <EditText
+                    android:id="@+id/et5taxable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="#fff"
+                    android:inputType="textPersonName"
+                    android:padding="4dp"
+                    android:textAllCaps="true" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total Tax Liability"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/et5liability"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="#fff"
+                    android:inputType="textPersonName"
+                    android:padding="4dp"
+                    android:textAllCaps="true" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:background="@color/cardbackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/heading"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="9B–Credit/Debit Notes (Registered)"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total Taxable Value"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/registeredTaxable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total Tax Liability"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/registerdLiability"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="#fff"
+                    android:inputType="textPersonName"
+                    android:padding="4dp"
+                    android:textAllCaps="true" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:background="@color/cardbackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/heading"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="9B–Credit/Debit Notes (Unregistered)"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total Taxable Value"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/unregisteredTaxable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total Tax Liability"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/unregisteredLiability"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:background="@color/cardbackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/heading"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text=" 6A – Exports Invoices"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total Invoice Value"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/exportInvoice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total Taxable Value"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/exportTaxable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:id="@+id/tax_liab"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total Tax Liability"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/exportLiability"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:background="@color/cardbackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/heading"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="7-B2C Others"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total Taxable Value"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/otherTaxable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total Tax Liability"
+                    android:textSize="22dp"
+                    android:textColor="@color/textcolor"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <EditText
+                    android:id="@+id/otherLiability"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:background="@color/cardbackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/heading"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="8A,8B,8C,8D–Nil Rated Supplies"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:text="Total Nill Amt"
+                    android:textColor="@color/textcolor"
+                    android:textSize="22dp" />
+
+                <EditText
+                    android:id="@+id/suppliesNill"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="#fff"
+                    android:inputType="textPersonName"
+                    android:padding="4dp"
+                    android:textAllCaps="true" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:text="Total Exempted Amount"
+                    android:textColor="@color/textcolor"
+                    android:textSize="22dp" />
+
+                <EditText
+                    android:id="@+id/suppliesExempted"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:text="Total Non-GST Amt"
+                    android:textColor="@color/textcolor"
+                    android:textSize="22dp" />
+
+                <EditText
+                    android:id="@+id/suppliesNonGst"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:background="@color/cardbackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/heading"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="11A(1),11A(2)–Tax Liability (Advances Received)"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:text="Gross Advance Received"
+                    android:textColor="@color/textcolor"
+                    android:textSize="22dp" />
+
+                <EditText
+                    android:id="@+id/advanceReceived"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:text="Total Tax Liability"
+                    android:textColor="@color/textcolor"
+                    android:textSize="22dp" />
+
+                <EditText
+                    android:id="@+id/advanceLiability"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:background="@color/cardbackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/heading"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="11B(1), 11B(2) – Adjustment of Advances"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:text="Gross Advance Adjusted"
+                    android:textColor="@color/textcolor"
+                    android:textSize="22dp" />
+
+                <EditText
+                    android:id="@+id/advanceAdjust"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:text="Total Tax Liability"
+                    android:textColor="@color/textcolor"
+                    android:textSize="22dp" />
+
+                <EditText
+                    android:id="@+id/adjustmentLiability"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:background="@color/cardbackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/heading"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="12–HSN-wise-summary of outward supplies"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:text="Total Invoice Value"
+                    android:textColor="@color/textcolor"
+                    android:textSize="22dp" />
+
+                <EditText
+                    android:id="@+id/hsnInvoice"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:text="Total Taxable Value"
+                    android:textColor="@color/textcolor"
+                    android:textSize="22dp" />
+
+                <EditText
+                    android:id="@+id/hsnTaxable"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:text="Total Tax Liability"
+                    android:textColor="@color/textcolor"
+                    android:textSize="22dp" />
+
+                <EditText
+                    android:id="@+id/hsnLiability"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:background="@color/cardbackground">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/heading"
+                android:layout_margin="8dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="13 – Documents Issued"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:text="Total Docs"
+                    android:textColor="@color/textcolor"
+                    android:textSize="22dp" />
+
+                <EditText
+                    android:id="@+id/totalDoc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:text="Cancelled Docs"
+                    android:textColor="@color/textcolor"
+                    android:textSize="22dp" />
+
+                <EditText
+                    android:id="@+id/cancelledDoc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textAllCaps="true"
+                    android:background="#fff"
+                    android:padding="4dp"
+                    android:layout_margin="4dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:padding="4dp"
+                    android:text="Net Issued Docs"
+                    android:textColor="@color/textcolor"
+                    android:textSize="22dp" />
+
+                <EditText
+                    android:id="@+id/issuedDoc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:background="#fff"
+                    android:inputType="textPersonName"
+                    android:padding="4dp"
+                    android:textAllCaps="true" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnsubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/buttonshape"
+            android:paddingBottom="4dp"
+            android:shadowColor="#2A20BA"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="30"
+            android:text="Submit"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+
+
+</ScrollView>
